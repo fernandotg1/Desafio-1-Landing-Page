@@ -1,11 +1,9 @@
-*{
+* {
     margin: 0px;
-    
-    font-family: 'Inter';
+    font-family: 'inter';
 }
 
 #menu-superior {
-    font-family: 'Inter';
     color: #FFFFFF;
     background-color: #303030;
     padding: 200px 0px 150px 70px;
@@ -20,12 +18,11 @@
 }
 
 #menu-estatisticas {
-    font-family: 'Inter';
     display: grid;
     grid-auto-flow: column;
     columns: auto;
     padding-top: 60px;
-    margin-left: 170px;
+    text-align: center;
     background-color: #F9F9F9;
     
 }
@@ -42,16 +39,16 @@
 }
 
 #menu-informacoes {
-    font-family: 'Inter';
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    margin: 100px 0px 50px 70px;
+    padding: 5% 0% 5% 5%;
     
+      
 }
 
 #titulo-menuinformacoes {
-    padding-top: 200px;
+    padding-top: 10%;
     font-size: 40px;
     
 }
@@ -61,6 +58,13 @@
     
 }
 
+img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+
 #menu-formulario {
     background-color: #303030;
     text-align: center;
@@ -69,7 +73,6 @@
 
 #titulo-menuformulario {
     font-size: 32px;
-    font-family: 'Inter';
     color: #FFFFFF;
 }
 
